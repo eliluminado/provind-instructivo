@@ -1,7 +1,6 @@
-# Table of contents
+# Tabla de contenido
 
 * [Indice](README.md)
-* [Untitled](untitled.md)
 
 ## ventas
 
