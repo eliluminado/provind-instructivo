@@ -5,4 +5,5 @@
 ## ventas
 
 * [Facturacion](ventas/facturacion.md)
+* [Imputaciones](ventas/imputaciones.md)
 
