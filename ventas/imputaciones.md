@@ -6,7 +6,9 @@
 
 Teniendo una imputación creada se lee de la siguiente forma
 
-![Imputacion Venta Pesos](assets/images/screenshots/imputaciones/imputacion_venta_pesos.jpg) ![Imputacion Venta](./assets/images/screenshots/imputaciones/imputacion_venta_dolares.jpg)
+![Imputaci&#xF3;n en pesos](../.gitbook/assets/imputacion_venta_pesos.jpg)
+
+![Imputaci&#xF3;n en dolares](../.gitbook/assets/imputacion_venta_dolares.jpg)
 
 En una imputación se observa la empresa con su ID y razón social, la factura o nota de debito a cancelar, la nota de crédito o recibo a utilizar, el importe imputado, la moneda de la factura y el recibo, el importe en moneda local \(Pesos Argentinos\), este recibo en pesos es igual al valor imputado, solo variara en facturas en dólares, por último el vencimiento de la factura que se imputó.
 
