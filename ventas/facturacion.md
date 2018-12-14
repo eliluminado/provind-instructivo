@@ -1,7 +1,3 @@
----
-description: Facturación de ventas
----
-
 # Facturacion
 
 Talonarios:
