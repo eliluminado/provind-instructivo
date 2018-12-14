@@ -1,0 +1,57 @@
+### IMPUTACIONES DE VENTAS
+
+#### Como leerla
+
+Teniendo una imputación creada se lee de la siguiente forma
+
+![Imputacion Venta Pesos](assets/images/screenshots/imputaciones/imputacion_venta_pesos.jpg)
+![Imputacion Venta](./assets/images/screenshots/imputaciones/imputacion_venta_dolares.jpg)
+
+En una imputación se observa la empresa con su ID y razón social, la factura o nota de debito a cancelar, la nota de crédito o recibo a utilizar, el importe imputado, la moneda de la factura y el recibo, el importe en moneda local (Pesos Argentinos), este recibo en pesos es igual al valor imputado, solo variara en facturas en dólares, por último el vencimiento de la factura que se imputó.
+
+#### Creación
+
+Para aplicar notas de crédito o saldos a favor en recibos a facturas
+> Tener en cuenta que la moneda de la factura y la nota de crédito/recibo debe ser la misma
+
+Ir a:
+Ventas -> Comprobantes -> Imputaciones de ventas
+
+![Agregar](./assets/images/buttons/agregar.jpg)
+Se agrega un nuevo registro para completar, buscar la empresa por nombre (se puede usar %) o ID
+![Alta Imputacion](./assets/images/screenshots/imputaciones/alta_imputacion.jpg)
+* Búsqueda por razón social
+![Busqueda empresa](./assets/images/screenshots/imputaciones/campo_empresa_por_nombre.jpg)
+* Búsqueda por ID
+![Busqueda empresa](./assets/images/screenshots/imputaciones/campo_empresa_por_id.jpg)
+
+Se completa el campo "*Factura/ND/Dev.recibo*", se ingresa el numero completo, por ejemplo "FVEA000500016046" con el formato *{tipo}{letra}{prefijo}{numero}* o con la lupa que aparece a la derecha se puede buscar la factura ![Lupa](./assets/images/screenshots/imputaciones/busqueda_lupa.jpg)
+Se repite el paso para buscar el "*Recibo/NC*"
+
+Finalmente quedaría listo para guardar con el botón "**Aceptar**" (*Ctrl+Intro*)
+![Aceptar](./assets/images/buttons/aceptar.jpg) o cancelar la imputación con el botón "**Cancelar**" (*Esc*) ![Cancelar](./assets/images/buttons/Cancelar.jpg)
+
+
+![Guardado](./assets/images/screenshots/imputaciones/guardado_imputacion.jpg)
+
+Quedando así
+
+![Imputacion Venta](./assets/images/screenshots/imputaciones/imputacion_venta.jpg)
+
+#### Duplicar
+
+Duplicar una imputación puede resultar útil para evitar la carga desde cero de todos los valores, se puede usar para tomar la misma empresa, la misma factura o nota de crédito.
+
+Una vez teniendo el registro a duplicar le damos al botón duplicar ![Duplicar](./assets/images/buttons/duplicar.jpg) y quedaría algo así
+
+![Duplicar Imputacion](./assets/images/screenshots/imputaciones/duplicar.jpg)
+
+Ahora desde las lupas podemos ir modificando los campos que necesitemos cambiar.
+
+#### Modificación
+
+El botón de modificar ![Modificar](./assets/images/buttons/modificar.jpg) permite modificar un registro, aunque simplemente modificando los valores necesarios ya nos daría la opción de guardar los cambio realizados sin requerir previamente el uso del botón.
+
+#### Eliminar
+
+Podemos eliminar una imputación por encontrarse mal imputada o el motivo que fuere, estando posicionados sobre el registro que deseamos eliminar, le damos al botón "**Borrar**" (*Ctrl+Supr*) ![Borrar](./assets/images/buttons/borrar.jpg) y esta esta se eliminara, liberando la factura y nota de crédito utilizada.
