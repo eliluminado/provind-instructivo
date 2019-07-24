@@ -6,5 +6,7 @@
 
 ## Compras
 
+{% page-ref page="compras/comprobantes.md" %}
+
 ## Tesoreria
 
